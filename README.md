@@ -308,7 +308,7 @@ linux查看系統架構<br>
 
 ### 下載並設置docker(不包含安裝 docker desktop，容量過大)
 
-參考 https://linux.how2shout.com/install-docker-debian-13-trixie/ 官方文件太難讀了
+參考 https://linux.how2shout.com/install-docker-debian-13-trixie/ 不然官方文件太難讀了
 
 前置作業
 ```bash

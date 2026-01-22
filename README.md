@@ -480,4 +480,4 @@ docker compose down
 
 例如如何處理億大堆的問題(資料庫無法連線、yml的設置、不可預測的零零散散的故障...etc)，怎麼更改資料庫名稱、使用者名稱、root密碼(需要進入sql容器的終端並且要更改.env的DB_PASS很麻煩)，若要讓admin資料夾變得不可訪問怎麼做，怎麼使用ngrok分享專案，怎麼自己編寫一個dockerfile、yml、init.sql、nginx.conf，以及docker的完整樣貌....等等的<br>
 所以我才讓ai幫我編寫前面的簡介，也許這會讓螢幕前的你更加理解怎麼操作、他的原理，不果他講的東西我不保證對;)<br>
-你可以直接git clone https://github.com/shika-tina/email_collector_for_docker 並在樹莓派上實做(如果你有的話)，當然如果你是windows那麼就更簡單了，完全不用用這麼亂七八糟的東西，你只要直接使用laragon就好，它同樣也是一個網頁伺服器開發工具，不過那會比用docker簡單操作100萬倍，之後會上傳的
+你可以直接git clone https://github.com/shika-tina/email_collector_for_docker 並在樹莓派上實做(如果你有的話)，當然如果你是windows那麼就更簡單了，完全不用用這麼亂七八糟的東西，你只要直接使用laragon就好，它同樣也是一個網頁伺服器開發工具，不過那會比用docker簡單操作100萬倍，之後會上傳的;)

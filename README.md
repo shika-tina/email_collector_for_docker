@@ -390,7 +390,7 @@ web/
 
 docker不用手動安裝例如msql、nginx、php、adminer...，只要將需要的用到的映像寫在docker-coompose.yml，docker就會自動安裝對應的映像，並且不用擔心版本不兼容的問題
 
-### docker指令:
+### docker指令集:
 
 ```bash
 docker run hello-world   測試

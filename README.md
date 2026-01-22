@@ -361,7 +361,7 @@ docker主要由daemon(守護進程)、client(客戶端)組成<br>
 當發送`docker container run`時，我們就是client，daemon則監聽client的請求並管理docker的物件<br>
 而物件分成四類: 映像檔(Image)、容器(Container)、虛擬網路(Network)以及Volume
 
-在docker中，文件各自的作用
+在web資料夾中，文件各自的作用
 1. dockerfile 的作用是設定image
 2. docker-compose.yml 會告訴 docker daemon怎麼管理image、container和volume還有network
 3. init.sql 決定在第一次啟動sql資料庫時，要怎麼初始化資料庫

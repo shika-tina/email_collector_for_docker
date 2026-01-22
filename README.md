@@ -448,7 +448,7 @@ docker network ls    列出所有network
 docker compose up -d  # 要注意在某些docker版本中docker與compose中間是有"-"的
 ```
 
-這會使得web資料夾變成一個網頁伺服器，在.env中我們寫到APP_PORT=8080，這使得docker-compose.yml中的nginx伺服器端口是8080，因此在瀏覽器打上
+這會讓web資料夾變成一個網頁伺服器，在.env中我們寫到APP_PORT=8080，這使得docker-compose.yml中的nginx伺服器端口是8080，因此在瀏覽器打上
 ```bash
 http://[主機ip]:8080
 就可以訪問你的網頁了

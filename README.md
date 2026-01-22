@@ -353,7 +353,7 @@ docker run hello-world
 
 ### docker簡介
 
-docker是一個能夠建立web server的好用工具
+docker是一個能夠建立web server的好用工具，它會在kernel上建立一個"輕量級的虛擬機"，相比virtualbox這種虛擬機，他更價的快速而且簡便，"開機"和"關機"都很快，處理流程也會很快速，不過本質上並不是虛擬機
 
 ### docker架構
 

@@ -358,7 +358,7 @@ docker是一個能夠建立web server的好用工具，它會在kernel上建立�
 ### docker架構
 
 docker主要由daemon(守護進程)、client(客戶端)組成<br>
-當發送`docker container run`時，我們就是client，daemon則監聽client的請求並管理docker的物件<br>
+當發送`docker container run`時，client就是我們，daemon則監聽client的請求並管理docker的物件<br>
 而物件分成四類: 映像檔(Image)、容器(Container)、虛擬網路(Network)以及Volume
 
 在web資料夾中，文件各自的作用

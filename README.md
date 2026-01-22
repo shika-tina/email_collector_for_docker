@@ -443,7 +443,7 @@ docker network ls    列出所有network
 
 講完以上廢話，講到真正如何啟動一個伺服器<br>
 在web資料夾中，啟用docker compose，這是一個整合所有上述資料夾下檔案並啟動容器、資料庫、volume、網路的工具<br>
-in web/
+在 web/
 ```bash
 docker compose up -d  # 要注意在某些docker版本中docker與compose中間是有"-"的
 ```

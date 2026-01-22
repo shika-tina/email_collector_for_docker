@@ -1,0 +1,26 @@
+# Admin 資料夾保護設定
+
+# 禁用目錄瀏覽
+Options -Indexes
+
+# 設定預設首頁為登入頁面
+DirectoryIndex login.php index.php
+
+# 保護敏感檔案
+<FilesMatch "\.(md|txt|log|ini|conf|bak)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# 保護配置檔案
+<Files config.php>
+    Order allow,deny
+    Deny from all
+</Files>
+
+# 如果需要 IP 白名單，取消下面的註解並修改 IP
+# <RequireAll>
+#     Require ip 127.0.0.1
+#     Require ip ::1
+#     # Require ip 192.168.1.100  # 添加允許的 IP
+# </RequireAll>
